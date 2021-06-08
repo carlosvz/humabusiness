@@ -10,7 +10,7 @@
           "title": "Dashboard Analítico",
           "showOnSeed": true,
           "href": "intel_analytics_dashboard.html"
-        },       
+        },
         {
           "title": "Notas da versão",
           "showOnSeed": true,
@@ -23,24 +23,42 @@
       ]
     },
     {
-      "title": "Theme Settings",
-      "icon": "fal fa-cog",
+      "title": "Administração",
+      "icon": "fal fa-building",
       "items": [
         {
-          "title": "How it works",
+          "title": "Empresa",
           "href": "settings_how_it_works.html"
         },
         {
-          "title": "Layout Options",
+          "title": "Taxa de câmbio e índice",
           "href": "settings_layout_options.html"
         },
         {
-          "title": "Skin Options",
-          "href": "settings_skin_options.html"
+          "title": "Inicialização da empresa",
+          "href": "javascript:void(0);",
+          "items": [
+            {
+              "title": "Configu",
+              "href": ""
+            }
+          ]
         },
         {
-          "title": "Saving to Database",
-          "href": "settings_saving_db.html"
+          "title": "Configuração",
+          "href": "javascript:void(0);",
+          "items": [
+            {
+              "title": "Geral",
+              "href": "javascript:void(0);",
+              "items": [
+                {
+                  "title": "Usuários",
+                  "href": ""
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -67,7 +85,7 @@
       "title": "Tools & Components"
     },
     {
-      "title": "UI Components",
+      "title": "Vendas",
       "icon": "fal fa-window",
       "items": [
         {
@@ -165,7 +183,7 @@
       ]
     },
     {
-      "title": "Utilities",
+      "title": "Compras",
       "icon": "fal fa-bolt",
       "items": [
         {
@@ -239,7 +257,7 @@
       ]
     },
     {
-      "title": "Font Icons",
+      "title": "Estoque",
       "icon": "fal fa-map-marker-alt",
       "span": {
         "class": "dl-ref bg-primary-500 hidden-nav-function-minify hidden-nav-function-top",
