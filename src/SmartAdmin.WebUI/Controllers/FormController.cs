@@ -16,5 +16,6 @@ namespace SmartAdmin.WebUI.Controllers
         public IActionResult CheckboxRadio() => View(_settings);
         public IActionResult InputGroups() => View(_settings);
         public IActionResult Validation() => View(_settings);
+        public IActionResult Items() => View(_settings);
     }
 }
