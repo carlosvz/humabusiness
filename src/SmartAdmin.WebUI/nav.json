@@ -239,19 +239,15 @@
     },
     {
       "title": "Estoque",
-      "icon": "fal fa-boxes",
-      "span": {
-        "class": "dl-ref bg-primary-500 hidden-nav-function-minify hidden-nav-function-top",
-        "text": "2,500+"
-      },
+      "icon": "fal fa-boxes",      
       "items": [
         {
-          "title": "Items",
-          "text": "Items",
+          "title": "Item",
+          "text": "Item",
           "href": "javascript:void(0);",
           "items": [
             {
-              "title": "Dados do Cadastro do Item",
+              "title": "Cadastro do Item",
               "href": "stock_items.html"
             },
             {

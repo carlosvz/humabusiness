@@ -33,7 +33,7 @@
    {
       "plugin":"JquerySnippets",
       "url":"https://www.gotbootstrap.com",
-      "license":"Part of SmartAdmin WebApp",
+      "license":"Part of  HUMA Business",
       "description":"Contains a bunch of jQuery snippets that are re-usable in many types of applications"
    },
    {
@@ -57,7 +57,7 @@
    {
       "plugin":"SmartPanels",
       "url":"https://www.gotbootstrap.com",
-      "license":"Part of SmartAdmin WebApp",
+      "license":"Part of  HUMA Business",
       "description":"Turn your ordinary panels to SmartPanel. Smartpanels lets you add buttons dynamically to panel header using data attributes. All panels are Sortable across all bootstrap col-spans and uses localStorage to store position, color, collapse state and various other panel settings. Use built in hooks to detect state change of panels and execute your script."
    },
    {
@@ -184,7 +184,7 @@
       "plugin":"Cropper",
       "url":"https://github.com/fengyuanchen/cropperjs/blob/master/README.md",
       "license":"MIT",
-      "description":"Cropperjs is a slick and lightweight responsive cropping tool for images. It supports 39 options, 27 methods and 6 events. You can select an specific area of an image, and then upload the coordinates data to server-side to crop the image, or crop the image on browser-side directly. The plugin is regularly updated and has tons of potential! Making it a great fit for SmartAdmin WebApp."
+      "description":"Cropperjs is a slick and lightweight responsive cropping tool for images. It supports 39 options, 27 methods and 6 events. You can select an specific area of an image, and then upload the coordinates data to server-side to crop the image, or crop the image on browser-side directly. The plugin is regularly updated and has tons of potential! Making it a great fit for  HUMA Business."
    },
    {
       "plugin":"Select2",
@@ -214,13 +214,13 @@
       "plugin":"Lightgallery",
       "url":"https://sachinchoolur.github.io/lightGallery/",
       "license":"A part of SmartAdmin Template",
-      "description":"LightGallery is a premium plugin, market value of $100, included as part of SmartAdmin WebApp, meaning you do not need to purchase a separate license for LightGallery when using it with SmartAdmin. This professional plugin is extreamly popular among the photographic community and comes packed with tons of features and goodies."
+      "description":"LightGallery is a premium plugin, market value of $100, included as part of  HUMA Business, meaning you do not need to purchase a separate license for LightGallery when using it with SmartAdmin. This professional plugin is extreamly popular among the photographic community and comes packed with tons of features and goodies."
    },
    {
       "plugin":"AltEditor",
       "url":"https://github.com/KasperOlesen/DataTable-AltEditor",
       "license":"A part of SmartAdmin Template",
-      "description":"DataTables AltEditor is a MIT licensed free editor. The plugin adds capabilities to add, edit and delete rows in your datatables through the use of modals. We have modified the editor extensively to be used with SmartAdmin WebApp and make your job a little easier. This current version of AltEditor is exclusive to SmartAdmin and we intend to keep it up to date to be compatible with DataTables."
+      "description":"DataTables AltEditor is a MIT licensed free editor. The plugin adds capabilities to add, edit and delete rows in your datatables through the use of modals. We have modified the editor extensively to be used with  HUMA Business and make your job a little easier. This current version of AltEditor is exclusive to SmartAdmin and we intend to keep it up to date to be compatible with DataTables."
    },
    {
       "plugin":"Jqvmap",
