@@ -10,7 +10,7 @@ namespace SmartAdmin.WebUI.Controllers
     public class StockController : Controller
     {
         public IActionResult Items() => View(_settings);
-
+        public IActionResult New() => View(_settings);
         private readonly ApplicationSettings _settings;
 
         public StockController(IOptions<ApplicationSettings> settings)

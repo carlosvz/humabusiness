@@ -1,0 +1,41 @@
+﻿@{
+    ViewData["Title"] = "Cadastro de Items";
+    ViewData["PageName"] = "stock_new";
+    ViewData["Category1"] = "Estoque";
+    ViewData["Category2"] = "Cadastro do Item";
+
+}
+
+@section Header {
+}
+
+@section PageHeading {
+    <div class="subheader">
+        <h1 class="subheader-title">
+            <i class="subheader-icon fal fa-edit"></i> Cadastro de Items
+            <small>
+               Adição e edição de item 
+            </small>
+        </h1>
+    </div>
+}
+
+<div class="row">
+</div>
+
+@section Scripts {
+    <script type="text/javascript">
+        var example_gridsize = $("#example-gridsize");
+
+        $("#gridrange").on("input change", function() {
+            //do something
+            example_gridsize.attr("placeholder", ".col-" + $(this).val());
+            example_gridsize.parent().removeClass().addClass("col-" + $(this).val());
+            console.log("col-" + $(this).val());
+        });
+
+        $("#btnNewItem").on('click', function () {
+            $.ajax({url:'/Stock/New', type:'GET'});
+        });
+    </script>
+}
