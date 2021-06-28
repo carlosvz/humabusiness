@@ -22,7 +22,7 @@ Or use the following instructions to setup a local server running SmartAdmin 4.0
 1. Run the following commands (in order) using the command line tool of your choice:
     * `dotnet build`
     * `dotnet publish` *(optional for localhost only deployment)*
-    * `dotnet run --project ./src/SmartAdmin.WebUI/SmartAdmin.WebUI.csproj`
+    * `dotnet run --project ./src/SmartAdmin.WebUI/HumaBusiness.WebUI.csproj`
 1. Launch your favorite browser and enter the following URL: https://localhost:5001, and try to login using the provided credentials
     * You may get a page mentioning that: 'Applying the existing migrations may resolve this issue'
     * Go ahead and click on the blue `Apply Migrations` button
