@@ -11,6 +11,7 @@ namespace HumaBusiness.WebUI.Controllers
     {
         public IActionResult Items() => View(_settings);
         public IActionResult New() => View(_settings);
+        public IActionResult Index() => View(_settings);
         private readonly ApplicationSettings _settings;
 
         public StockController(IOptions<ApplicationSettings> settings)

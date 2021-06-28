@@ -248,7 +248,7 @@
           "items": [
             {
               "title": "Cadastro do Item",
-              "href": "stock_items.html"
+              "href": "stock_index.html"
             },
             {
               "title": "Depósito",

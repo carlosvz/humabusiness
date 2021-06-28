@@ -1,0 +1,107 @@
+﻿@{
+    ViewData["Title"] = "Listagem de Items";
+    ViewData["PageName"] = "stock_item";
+    ViewData["Category1"] = "Estoque";
+    ViewData["Category2"] = "Items";
+
+}
+
+@section Header {
+}
+
+@section PageHeading {
+    <div class="subheader">
+        <h1 class="subheader-title">
+            <i class="subheader-icon fal fa-edit"></i> Lista de Items
+            <small>
+                Amostra geral 
+            </small>
+        </h1>
+    </div>
+}
+
+<div class="row">
+    <div class="col-sm-12">
+        <div class="card mb-g">
+            <div class="card-body">
+                <div class="frame-wrap p-0 border-0 m-0">
+                    <button id="btnNewItem" class="btn btn-primary mb-3 float-right" asp-page-handler="SendVerificationEmail"  ><span class="fal fa-plus mr-3"></span>Adicionar</button>
+                    <table class="table m-0 table-bordered  table-hover table-striped" id="table-example">
+                        <thead>
+                            <tr>
+                                <th>Nº do Item</th>
+                                <th>Descrição</th>
+                                <th>Em estoque</th>
+                                <th>Nome estrangeiro</th>
+                                <th>Outro</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>I000001</td>
+                                <td>PARAFUSO SEXTAVADO G.5 UNC RP AC 3/8 X 3 BICROMATIZADO</td>
+                                <td>2.987,00</td>
+                                <td>PARAFUSO SXT G.5 3/8 X 3 BIC</td>
+                                <td> -- </td>
+                            </tr>
+                            <tr>
+                                <td>I000006</td>
+                                <td>PARAFUSO ABAULADO FENDADO UNC RI AC 1/4 X 3/8 ZINCADO BRANCO</td>
+                                <td>2.876,00</td>
+                                <td>PARAFUSO ABA FEN  1/4 X 3/8 ZNC BRCO</td>
+                                <td> -- </td>
+                            </tr>
+                            <tr>
+                                <td>I000998</td>
+                                <td>CHAVE ZETA SEXTAVADA 4 X 40 ZINCADO BRANCO</td>
+                                <td>1.987,00</td>
+                                <td>CHAVE ZETA SXT 4 X 40 ZNC BRNCO</td>
+                                <td> -- </td>
+                            </tr>
+                            <tr>
+                                <td>I000001</td>
+                                <td>PARAFUSO SEXTAVADO G.5 UNC RP AC 3/8 X 3 BICROMATIZADO</td>
+                                <td>2.987,00</td>
+                                <td>PARAFUSO SXT G.5 3/8 X 3 BIC</td>
+                                <td> -- </td>
+                            </tr>
+                            <tr>
+                                <td>I000006</td>
+                                <td>PARAFUSO ABAULADO FENDADO UNC RI AC 1/4 X 3/8 ZINCADO BRANCO</td>
+                                <td>2.876,00</td>
+                                <td>PARAFUSO ABA FEN  1/4 X 3/8 ZNC BRCO</td>
+                                <td> -- </td>
+                            </tr>
+                            <tr>
+                                <td>I000998</td>
+                                <td>CHAVE ZETA SEXTAVADA 4 X 40 ZINCADO BRANCO</td>
+                                <td>1.987,00</td>
+                                <td>CHAVE ZETA SXT 4 X 40 ZNC BRNCO</td>
+                                <td> -- </td>
+                            </tr>
+                        </tbody>
+                    </table>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script type="text/javascript">
+        var example_gridsize = $("#example-gridsize");
+
+        //$("#gridrange").on("input change", function() {
+        //    //do something
+        //    example_gridsize.attr("placeholder", ".col-" + $(this).val());
+        //    example_gridsize.parent().removeClass().addClass("col-" + $(this).val());
+        //    console.log("col-" + $(this).val());
+        //});
+
+        $("#btnNewItem").on('click', function () {
+            //$('#js-page-content.page-content ').load('/Stock/New');
+            //$.ajax({url:'/Stock/New', type:'GET'});
+        });
+    </script>
+}

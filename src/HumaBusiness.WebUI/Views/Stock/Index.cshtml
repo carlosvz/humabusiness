@@ -1,6 +1,6 @@
 ﻿@{
     ViewData["Title"] = "Listagem de Items";
-    ViewData["PageName"] = "stock_items";
+    ViewData["PageName"] = "stock_index";
     ViewData["Category1"] = "Estoque";
     ViewData["Category2"] = "Items";
 
@@ -25,7 +25,7 @@
         <div class="card mb-g">
             <div class="card-body">
                 <div class="frame-wrap p-0 border-0 m-0">
-                    <button id="btnNewItem" class="btn btn-primary mb-3 float-right" asp-page-handler="SendVerificationEmail" ><span class="fal fa-plus mr-3"></span>Adicionar</button>
+                    <a id="btnNewItem" class="btn btn-primary mb-3 float-right" href="../Views/Stock/New"><span class="fal fa-plus mr-3"></span>Adicionar</a>
                     <table class="table m-0 table-bordered  table-hover table-striped" id="table-example">
                         <thead>
                             <tr>
@@ -99,9 +99,9 @@
             console.log("col-" + $(this).val());
         });
 
-        //$("#btnNewItem").on('click', function () {
-        //    $('#js-page-content').load('/Stock/New');
-        //    //$.ajax({url:'/Stock/New', type:'GET'});
-        //});
+        $("#btnNewItem").on('click', function () {
+            $('div#content.').load('/Stock/New');
+            //$.ajax({url:'/Stock/New', type:'GET'});
+        });
     </script>
 }
